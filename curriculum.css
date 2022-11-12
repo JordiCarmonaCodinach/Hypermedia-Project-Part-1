@@ -1,0 +1,55 @@
+html{
+	background-color: #C5D3D9;
+	font-family: 'Merienda';
+}
+body{
+	height: 100%;
+}
+#profilepic{
+	height: 200px;
+	width: 145px;
+}
+.column1{
+	margin-top: 1%;
+	margin-left: 1%;
+	margin-bottom: 1%;
+	float: left;
+	width: 20%;
+	height: 86vh;
+	background-color: #D7E2E7;
+	padding: 2%;
+	text-align: center;
+}
+.column2{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	float: left;
+	width: 70%;
+	height: 86vh;
+	padding: 2%;
+	background-color: #BCd7E3;
+	text-align: justify;
+}
+h1{
+	color: #3B7087;
+	font-family: "Gill Sans", sans-serif;
+	font-size: 3em;
+}
+h2{
+	color: #214C5E;
+	margin: 0px;
+}
+#info{
+	float: justify;
+}
+#work, #titles, #skills{
+	display: flex;
+	text-align: left;
+}
+#work span, #titles span, #skills span, #skills table{
+	margin-right: 2%;
+	width: 100%;
+}
+#work span:last-child, #titles span:last-child, #skills span:last-child{
+	margin-right: 0;
+}
