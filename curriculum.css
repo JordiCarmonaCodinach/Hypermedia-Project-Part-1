@@ -37,16 +37,12 @@ h1{
 }
 h2{
 	color: #214C5E;
-	margin: 0px;
-}
-#info{
-	float: justify;
 }
 #work, #titles, #skills{
 	display: flex;
 	text-align: left;
 }
-#work span, #titles span, #skills span, #skills table{
+.box{
 	margin-right: 2%;
 	width: 100%;
 }
